@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.block-locals-drop {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: rgb(228, 228, 228);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block-locals-drop.hide {
+    display: none;
+}
+.block-locals-drop button {
+    width: 50px;
+    cursor: pointer;
+}
